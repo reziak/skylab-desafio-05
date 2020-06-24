@@ -11,7 +11,7 @@ import TransactionRepository from '../repositories/TransactionRepository';
 
 interface Imported {
   title: string;
-  type: 'income' | 'output';
+  type: 'income' | 'outcome';
   value: number;
   category: string;
 }
